@@ -59,7 +59,7 @@ mongoose.set("strictQuery", true);
 //   .catch((error) => console.error(error));
 
 mongoose
-  .connect("mongodb+srv://admin:admin@cluster0.jhj7ej8.mongodb.net/test", {
+  .connect("mongodb+srv://admin:amit9898@dashboardcluster.kot8ejb.mongodb.net/?retryWrites=true&w=majority&appName=dashboardCluster", {
     useNewUrlParser: true,
   })
   .then(() => console.log("DB connected"))
