@@ -92,7 +92,7 @@ function AdminLogin() {
         >
           Login
         </button>
-        <p className="text-center text-gray-800 mt-4">
+        {/* <p className="text-center text-gray-800 mt-4">
           Dont have an account?{" "}
           <Link
             to="/admin/register"
@@ -100,7 +100,7 @@ function AdminLogin() {
           >
             Register here
           </Link>
-        </p>
+        </p> */}
       </form>
     </div>
   );

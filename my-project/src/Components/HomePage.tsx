@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+//@ts-ignore
+import AICElogo from "../../src/assets/AICElogo.jpeg"
 import classNames from "classnames";
 function HomePage() {
   return (
@@ -8,8 +10,11 @@ function HomePage() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <Link to="/" className="font-bold text-xl text-gray-800">
-                Online Exam
+              <Link to="/" className="font-bold text-xl text-gray-800 flex flex-row items-center">
+                <div className="h-[50px] w-[50px] overflow-hidden mr-[20px]">
+                  <img src={AICElogo}></img>
+                </div>
+                AICE Examination System
               </Link>
             </div>
           </div>
@@ -18,8 +23,10 @@ function HomePage() {
 
       {/* Main content */}
       <main className="flex-grow flex items-center justify-center">
-        <div className="max-w-lg w-full">
-          <h1 className="text-3xl font-bold mb-4">Online Examination System</h1>
+        <div className="max-w-lg w-full flex flex-col items-center">
+          <div className="h-[100px] w-[100px] overflow-hidden mb-[50px]">
+            <img src={AICElogo}></img>
+          </div>
 
           {/* Modules */}
           <div className="flex flex-col sm:flex-row gap-4">

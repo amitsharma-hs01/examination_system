@@ -4,8 +4,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"cd Backend && nodemon app\" \"cd my-project && npm run dev\""
-
-    
+    "start": "concurrently \"cd Backend && nodemon app\" \"cd my-project && npm run dev\""    
   }
 }

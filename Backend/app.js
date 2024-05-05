@@ -62,7 +62,7 @@ mongoose
   .connect("mongodb+srv://admin:amit9898@dashboardcluster.kot8ejb.mongodb.net/?retryWrites=true&w=majority&appName=dashboardCluster", {
     useNewUrlParser: true,
   })
-  .then(() => console.log("DB connected"))
+  .then(() => console.log("DB connected")) 
   .catch((error) => console.error(error));
 // Test Route
 app.get("/", (req, res) => {
